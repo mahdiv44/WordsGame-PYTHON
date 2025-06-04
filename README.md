@@ -1,9 +1,9 @@
-#🧠 Word Game in Python
+# 🧠 Word Game in Python
 This is a text-based word game implemented in Python where the player builds valid words using a given set of random letters (a "hand"). The goal is to make as many valid English words as possible from those letters to achieve a high score.
 
 Inspired by games like Scrabble, this project includes score calculations, dictionary validation, letter tracking, and word verification.
 
-🎯 Game Objective
+## 🎯 Game Objective
 The player is dealt a random hand of letters and must form valid English words using those letters. Each word earns a score based on:
 
 The letters used (each letter has a point value)
@@ -14,7 +14,7 @@ A bonus formula that encourages using more letters
 
 The player continues forming words until the hand is empty or they choose to stop.
 
-🧩 Features
+## 🧩 Features
 Score calculation based on Scrabble-style letter values.
 
 Support for wildcard letters (*) that can represent any vowel.
