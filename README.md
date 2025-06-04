@@ -25,7 +25,7 @@ Word validation using a provided word list (word_list).
 
 Unit tests for key functions.
 
-🛠 Key Functions
+## 🛠 Key Functions
 get_word_score(word, n)
 Calculates the score for a given word:
 
@@ -55,7 +55,7 @@ Supports wildcard character *, which can be any vowel
 get_frequency_dict(sequence)
 Utility function that returns a dictionary with the frequency of each element (used for counting letters in words and hands).
 
-🧪 Tests
+# 🧪 Tests
 This project includes test functions to validate correctness:
 
 test_get_word_score(): Ensures scoring is calculated properly.
@@ -66,7 +66,7 @@ test_is_valid_word(): Ensures that word validation logic works.
 
 test_wildcard(): Specifically tests word validation when wildcards are used.
 
-💡 Future Improvements
+## 💡 Future Improvements
 Add a user interface (text-based or GUI)
 
 Allow multiplayer turns
@@ -75,7 +75,7 @@ Implement a timer or difficulty levels
 
 Track high scores
 
-📂 How to Run
+# 📂 How to Run
 Clone the repository
 
 Ensure Python 3 is installed
@@ -84,7 +84,7 @@ Run the main script in your terminal or IDE
 
 Make sure to provide a valid word list file (e.g., words.txt)
 
-🗃 Example Word List File
+# 🗃 Example Word List File
 The word list file (words.txt) should contain valid English words, one per line. Example:
 
 python-repl
